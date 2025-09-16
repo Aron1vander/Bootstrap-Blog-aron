@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Blog - Belajar CSS</title>
+    <!-- Bootstrap 5.3 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Simple Blog</a>
+      </div>
+    </nav>
+
+    <!-- ================= BLOG CONTENT ================= -->
+    <div class="container mt-4">
+      <!-- Judul Artikel -->
+      <h1 class="mb-3">Belajar CSS: Dasar hingga Lanjutan</h1>
+      <p class="text-muted">Diposting oleh Aron - 16 Sept 2025</p>
+
+      <!-- Gambar Ilustrasi -->
+      <img
+        src="sources/hero-css.png"
+        alt="Ilustrasi Belajar CSS"
+        class="img-fluid rounded mb-4 shadow-sm"
+        style="max-width: 600px; height: auto"
+      />
+
+      <!-- Paragraf Narasi -->
+      <p>
+        Cascading Style Sheets atau yang biasa dikenal dengan CSS merupakan
+        bahasa yang digunakan untuk mengatur tampilan suatu halaman web. Jika
+        HTML berfungsi sebagai kerangka yang menyusun struktur konten, maka CSS
+        bertugas mempercantik tampilan dengan memberikan warna, tata letak,
+        tipografi, hingga efek animasi. Dengan CSS, sebuah halaman web sederhana
+        dapat disulap menjadi menarik dan interaktif tanpa perlu menyentuh sisi
+        logika pemrograman. Hal inilah yang membuat CSS menjadi salah satu
+        keterampilan wajib bagi setiap pengembang web modern.
+      </p>
+      <p>
+        Pada tahap awal belajar CSS, kita akan berkenalan dengan konsep
+        selector, property, dan value. Selector digunakan untuk memilih elemen
+        HTML yang ingin diberi gaya, property adalah jenis gaya yang akan
+        diterapkan, sedangkan value adalah nilai dari property tersebut.
+        Misalnya, jika kita ingin membuat teks paragraf berwarna biru, maka kita
+        bisa menggunakan selector <code>p</code>, property <code>color</code>,
+        dan value <code>blue</code>. Konsep sederhana ini adalah pondasi dari
+        hampir seluruh aturan CSS yang lebih kompleks.
+      </p>
+      <p>
+        Seiring perkembangan, CSS tidak hanya terbatas pada mengubah warna atau
+        ukuran font. Ada konsep yang lebih canggih seperti flexbox dan grid yang
+        memungkinkan kita membuat layout responsif dengan mudah. Flexbox sangat
+        berguna untuk menyusun elemen secara horizontal atau vertikal dengan
+        fleksibel, sedangkan grid memberikan kontrol penuh terhadap struktur
+        kolom dan baris di dalam halaman. Kedua fitur ini menjadi standar modern
+        dalam desain web karena mempermudah proses pembangunan layout yang
+        adaptif di berbagai ukuran layar.
+      </p>
+      <p>
+        Selain itu, CSS juga mendukung penggunaan animasi dan transisi. Dengan
+        beberapa baris kode, kita dapat membuat efek hover yang halus, transisi
+        antar halaman, atau bahkan animasi kompleks tanpa perlu menggunakan
+        JavaScript. Contohnya, efek tombol yang berubah warna saat diarahkan
+        kursor adalah implementasi sederhana dari transisi CSS. Dengan
+        penguasaan animasi CSS, seorang desainer dapat meningkatkan pengalaman
+        pengguna (UX) menjadi lebih menarik dan interaktif.
+      </p>
+      <p>
+        Tidak kalah penting, CSS modern juga memungkinkan penggunaan variabel,
+        nesting, dan modul melalui preprocessor seperti SCSS atau LESS. Dengan
+        pendekatan ini, kode CSS menjadi lebih terstruktur, mudah dipelihara,
+        dan terhindar dari duplikasi. Misalnya, jika kita menggunakan warna
+        utama yang sama di banyak elemen, kita cukup mendefinisikannya satu kali
+        dalam variabel, sehingga ketika warna tersebut diganti, semua elemen
+        otomatis mengikuti perubahan. Inilah alasan mengapa CSS dianggap sebagai
+        bahasa yang terus berevolusi mengikuti kebutuhan industri web.
+      </p>
+      <p>
+        Dengan menguasai CSS secara mendalam, kita tidak hanya mampu membuat
+        halaman web terlihat indah, tetapi juga memastikan tampilannya konsisten
+        di berbagai perangkat. Kombinasi pemahaman dasar, eksplorasi fitur
+        lanjutan, serta praktik terus-menerus akan menjadikan CSS sebagai
+        senjata utama dalam menciptakan pengalaman web yang modern, responsif,
+        dan ramah pengguna. Oleh karena itu, jangan berhenti pada dasar-dasarnya
+        saja, teruslah eksplorasi karena CSS memiliki dunia yang luas untuk
+        digali.
+      </p>
+
+      <!-- Tombol Back -->
+      <a href="index.html" class="btn btn-secondary mt-4">← Back to Home</a>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+      <p>&copy; 2025 Simple Blog by Aron</p>
+    </footer>
+  </body>
+</html>
